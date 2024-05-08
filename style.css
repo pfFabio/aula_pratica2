@@ -1,0 +1,41 @@
+body{
+    background-color: gray;
+    margin-right: 8%;
+}
+
+body>header>div>div{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#pai{
+    color: brown;
+    grid-area: pai;
+}
+
+#pai:hover{
+    background-color: green;
+}
+
+#filho{
+    grid-area: filho;
+}
+
+#filha{
+    grid-area: filha;
+}
+
+#mae{
+    grid-area: mae;
+}
+
+
+#menu{
+    display: grid;
+    grid-template-areas: "pai filho mae filha";
+}
+
+#menu_lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}

@@ -1,0 +1,54 @@
+/*celular*/
+
+/* estilos para telas menores ou iguais a 320px*/
+@media (max-width: 320px) {
+    body {
+      background-color: darkgreen;
+    }
+    #menu{
+        grid-template-areas: 
+            "pai mae" 
+            "filho filha";
+    }
+  }
+/* estilos para telas menores ou iguais a 480px*/
+@media (min-width:321px) and (max-width: 480px) {
+    body {
+      background-color: blue;
+    }
+    #menu{
+        grid-template-areas: 
+            "pai mae" 
+            "filho filha";
+    }
+
+  }
+/*tablets*/
+/* estilos para telas menores ou iguais a 768px - RETRATO*/
+@media (min-width:481px) and (max-width: 768px) {
+    body {
+      background-color: blueviolet;
+    }
+    #menu{
+        grid-template-areas: 
+            "pai mae" 
+            "filho filha";
+    }
+    #menu_lista{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+/* estilos para telas menores ou iguais a 1024px - PAISAGEM*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      background-color: brown;
+    }
+  }
+/*desktop*/
+/* estilos para telas menores ou iguais a 1366px*/
+@media (min-width: 1025px) and (max-width: 1366px) {
+    body {
+      background-color: black;
+    }
+  }
+/* estilos para telas maiores a 1367px*/
